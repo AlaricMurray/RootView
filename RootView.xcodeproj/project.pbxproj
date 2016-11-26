@@ -15,6 +15,10 @@
 		3E5D27EF1DE9057C006235A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E5D27ED1DE9057C006235A6 /* LaunchScreen.storyboard */; };
 		3E5D27FA1DE9057C006235A6 /* RootViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D27F91DE9057C006235A6 /* RootViewTests.m */; };
 		3E5D28051DE9057C006235A6 /* RootViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D28041DE9057C006235A6 /* RootViewUITests.m */; };
+		3E5D28141DE90729006235A6 /* UIApplication+myApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D28131DE90729006235A6 /* UIApplication+myApplication.m */; };
+		3E5D28171DE9096A006235A6 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D28161DE9096A006235A6 /* MyTabBar.m */; };
+		3E5D281A1DE90992006235A6 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D28191DE90992006235A6 /* FirstViewController.m */; };
+		3E5D281D1DE909A5006235A6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5D281C1DE909A5006235A6 /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		3E5D28001DE9057C006235A6 /* RootViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RootViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E5D28041DE9057C006235A6 /* RootViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewUITests.m; sourceTree = "<group>"; };
 		3E5D28061DE9057C006235A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E5D28121DE90729006235A6 /* UIApplication+myApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+myApplication.h"; sourceTree = "<group>"; };
+		3E5D28131DE90729006235A6 /* UIApplication+myApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+myApplication.m"; sourceTree = "<group>"; };
+		3E5D28151DE9096A006235A6 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		3E5D28161DE9096A006235A6 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		3E5D28181DE90992006235A6 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3E5D28191DE90992006235A6 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3E5D281B1DE909A5006235A6 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = ../SecondViewController.h; sourceTree = "<group>"; };
+		3E5D281C1DE909A5006235A6 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = ../SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,14 @@
 			children = (
 				3E5D27E21DE9057B006235A6 /* AppDelegate.h */,
 				3E5D27E31DE9057B006235A6 /* AppDelegate.m */,
+				3E5D28121DE90729006235A6 /* UIApplication+myApplication.h */,
+				3E5D28131DE90729006235A6 /* UIApplication+myApplication.m */,
+				3E5D28151DE9096A006235A6 /* MyTabBar.h */,
+				3E5D28161DE9096A006235A6 /* MyTabBar.m */,
+				3E5D28181DE90992006235A6 /* FirstViewController.h */,
+				3E5D28191DE90992006235A6 /* FirstViewController.m */,
+				3E5D281B1DE909A5006235A6 /* SecondViewController.h */,
+				3E5D281C1DE909A5006235A6 /* SecondViewController.m */,
 				3E5D27E51DE9057B006235A6 /* ViewController.h */,
 				3E5D27E61DE9057B006235A6 /* ViewController.m */,
 				3E5D27E81DE9057C006235A6 /* Main.storyboard */,
@@ -271,8 +291,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E5D27E71DE9057B006235A6 /* ViewController.m in Sources */,
+				3E5D281A1DE90992006235A6 /* FirstViewController.m in Sources */,
 				3E5D27E41DE9057B006235A6 /* AppDelegate.m in Sources */,
+				3E5D281D1DE909A5006235A6 /* SecondViewController.m in Sources */,
 				3E5D27E11DE9057B006235A6 /* main.m in Sources */,
+				3E5D28171DE9096A006235A6 /* MyTabBar.m in Sources */,
+				3E5D28141DE90729006235A6 /* UIApplication+myApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
